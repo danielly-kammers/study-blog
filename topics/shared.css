@@ -1,0 +1,77 @@
+header {
+  padding: 1rem 2rem 2rem;
+}
+
+header h1 {
+  margin: 2rem 0 0.5rem;
+}
+
+header .go-back {
+  background-color: transparent;
+  padding: 0;
+  font-weight: 600;
+  color: #c1c1c1;
+}
+
+header .go-back:hover {
+  color: #fff;
+}
+
+#page-content {
+  padding: 1rem 2%;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-color: #ffffff15;
+  border-radius: 0.5rem;
+
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.example .title,
+.note .title {
+  font-size: 1.25rem;
+  padding-bottom: 0.75rem;
+}
+
+.example .caption,
+.note .caption {
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.example .description,
+.note .description {
+  margin-bottom: 1rem;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-color: #ffffff15;
+  border-radius: 0.5rem;
+
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+code {
+  font-family: Consolas, "courier new";
+  color: #8adaca;
+  background-color: #051627;
+  padding: 0.25rem;
+  font-size: 1rem;
+}

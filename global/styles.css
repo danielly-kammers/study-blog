@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #272727;
+
+  text-align: left;
+  color: #efefef;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 3rem 2rem;
+  color: #f5f5f5;
+}
+
+header .go-back {
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #299c80;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul {
+  margin-left: 1rem;
+}

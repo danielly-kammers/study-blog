@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nome do conteúdo</title>
+
+    <link rel="stylesheet" href="../../global/styles.css" />
+    <link rel="stylesheet" href="../shared.css" />
+    <script src="./index.js"></script>
+    <script src="../../global/functions.js"></script>
+    <script
+      src="https://kit.fontawesome.com/600c04d571.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <button class="go-back" onclick="goHome()">
+        <i class="fa-solid fa-arrow-left"></i> Voltar para o início
+      </button>
+      <h1>Nome do conteúdo</h1>
+      <span>Descrição breve</span>
+    </header>
+
+    <div id="page-content">
+      <div class="notes">
+        <h2 class="section-title">Anotações</h2>
+
+        <div class="note">
+          <ul>
+            <li>Nota simples</li>
+          </ul>
+        </div>
+
+        <div class="note">
+          <h2 class="title">Título</h2>
+          <ul>
+            <li><b>ABC:</b> notas com título.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="examples">
+        <h2 class="section-title">Demonstrações práticas</h2>
+
+        <div class="example">
+          <h2 class="title">Título</h2>
+          <h4 class="caption">Subtitulo</h4>
+          <code class="description">sintaxe</code>
+
+          <p class="description">Descrição da demonstração</p>
+
+          <div>
+            <button onclick="exemplo()">Exemplo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
